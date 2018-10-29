@@ -1,0 +1,23 @@
+{
+    "name": "subcontext-manager",
+    "version": "1.0.0",
+    "description": "子域协议管理",
+    "author": "ranpeng",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/通用/子域/协议": {
+            "message": "subcontext-manager:run"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "子域协议管理",
+        "width": 600,
+        "height": 800
+    }
+}
